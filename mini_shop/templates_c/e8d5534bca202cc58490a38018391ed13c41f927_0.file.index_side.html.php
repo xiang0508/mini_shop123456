@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 05:24:59
+/* Smarty version 3.1.29, created on 2020-11-10 07:39:20
   from "C:\UniServerZ\www\mini_shop123456\mini_shop\templates\index_side.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa242b98dec0_91225718',
+  'unifunc' => 'content_5faa43a8aa0027_54770767',
   'file_dependency' => 
   array (
     'e8d5534bca202cc58490a38018391ed13c41f927' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop123456\\mini_shop\\templates\\index_side.html',
-      1 => 1604985766,
+      1 => 1604993960,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:side_cart.html' => 1,
   ),
 ),false)) {
-function content_5faa242b98dec0_91225718 ($_smarty_tpl) {
+function content_5faa43a8aa0027_54770767 ($_smarty_tpl) {
 ?>
 <div class="panel panel-primary">
   <div class="panel-heading">功能表</div>

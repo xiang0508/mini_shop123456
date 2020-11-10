@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 06:59:09
+/* Smarty version 3.1.29, created on 2020-11-10 07:33:36
   from "C:\UniServerZ\www\mini_shop123456\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa3a3d3f4611_36170888',
+  'unifunc' => 'content_5faa42506e2348_72078822',
   'file_dependency' => 
   array (
     '973d0bc31c287163f2ba6888c289bcd13159d08d' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop123456\\mini_shop\\templates\\index.html',
-      1 => 1604991545,
+      1 => 1604993612,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5faa3a3d3f4611_36170888 ($_smarty_tpl) {
+function content_5faa42506e2348_72078822 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -115,9 +115,9 @@ function content_5faa3a3d3f4611_36170888 ($_smarty_tpl) {
       </div>
 
       <div id="shop_foot" >
-        <div>地址：XX市XX區XX路XX巷XX號</div>
-        <div>電話：(06)2345678</div>
-        <div>版權所有 copyright © 2020 </div>
+        <div><font color="bootstrap/js/jquery.min.js">地址：XX市XX區XX路XX巷XX號</font></div>
+        <div><font color="bootstrap/css/bootstrap.min.css">電話：(06)2345678</font></div>
+        <div><font color="bootstrap/js/html5shiv.min.js">版權所有 copyright © 2020</font> </div>
       </div>
     </div>
   </body>

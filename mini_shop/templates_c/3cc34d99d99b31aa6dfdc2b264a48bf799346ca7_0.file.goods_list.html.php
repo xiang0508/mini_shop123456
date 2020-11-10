@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 07:26:10
+/* Smarty version 3.1.29, created on 2020-11-10 07:35:53
   from "C:\UniServerZ\www\mini_shop123456\mini_shop\templates\goods_list.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa4092b4f362_11058590',
+  'unifunc' => 'content_5faa42d9bf2123_13148892',
   'file_dependency' => 
   array (
     '3cc34d99d99b31aa6dfdc2b264a48bf799346ca7' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop123456\\mini_shop\\templates\\goods_list.html',
-      1 => 1604993167,
+      1 => 1604993750,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5faa4092b4f362_11058590 ($_smarty_tpl) {
+function content_5faa42d9bf2123_13148892 ($_smarty_tpl) {
 ?>
 <div class="row">
   <?php
@@ -47,10 +47,10 @@ $__foreach_goods_0_saved_local_item = $_smarty_tpl->tpl_vars['goods'];
 </a></h3>
           </div>
           <div class="row">
-            <div class="col-md-6">售價：<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_price'];?>
-</div><br>
-            <div class="col-md-6">人氣：<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_counter'];?>
-</div>
+            <div class="col-md-6" ><font color="green">售價：<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_price'];?>
+</font></div><br>
+            <div class="col-md-6"><font color="red">人氣：<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_counter'];?>
+</font></div>
           </div>
         </div>
       </div>
