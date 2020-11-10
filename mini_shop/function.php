@@ -24,7 +24,7 @@ function my_filter($var, $type = "int")
 //取得商品圖片
 function get_goods_pic($goods_sn = '', $type = "goods")
 {
-    $filename = "uploads/{$type}/{$goods_sn}.png";
+    $filename = "uploads/{$type}/{$goods_sn}.jpg";
     if (file_exists($filename)) {
         return $filename;
     } else {
