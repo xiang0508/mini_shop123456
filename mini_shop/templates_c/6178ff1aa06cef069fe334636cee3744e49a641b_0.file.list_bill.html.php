@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 05:59:51
+/* Smarty version 3.1.29, created on 2020-11-10 07:01:47
   from "C:\UniServerZ\www\mini_shop123456\mini_shop\templates\list_bill.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa2c5723d017_74814945',
+  'unifunc' => 'content_5faa3adbb49db0_60831160',
   'file_dependency' => 
   array (
     '6178ff1aa06cef069fe334636cee3744e49a641b' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop123456\\mini_shop\\templates\\list_bill.html',
-      1 => 1604985766,
+      1 => 1604991667,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5faa2c5723d017_74814945 ($_smarty_tpl) {
+function content_5faa3adbb49db0_60831160 ($_smarty_tpl) {
 ?>
 <h1><?php if ($_smarty_tpl->tpl_vars['isAdmin']->value) {?>訂單管理<?php } else { ?>我的訂單<?php }?></h1>
 <div class="row">
